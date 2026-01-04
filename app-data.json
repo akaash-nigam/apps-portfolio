@@ -1,0 +1,821 @@
+[
+  {
+    "name": "CalmSpaceAI",
+    "platform": "ios",
+    "url": "/calmspaceai",
+    "description": "AI-powered meditation and mindfulness",
+    "githubUrl": "https://akaash-nigam.github.io/iOS_CalmSpaceAI/"
+  },
+  {
+    "name": "ExpenseAI",
+    "platform": "ios",
+    "url": "/expenseai",
+    "description": "Smart expense tracking with AI",
+    "githubUrl": "https://akaash-nigam.github.io/iOS_ExpenseAI/"
+  },
+  {
+    "name": "FitCoachAI",
+    "platform": "ios",
+    "url": "/fitcoachai",
+    "description": "Personal AI fitness coach",
+    "githubUrl": "https://akaash-nigam.github.io/iOS_FitCoachAI/"
+  },
+  {
+    "name": "FluentAI",
+    "platform": "ios",
+    "url": "/fluentai",
+    "description": "AI language learning assistant",
+    "githubUrl": "https://akaash-nigam.github.io/iOS_FluentAI/"
+  },
+  {
+    "name": "Letters",
+    "platform": "ios",
+    "url": "/letters",
+    "description": "Beautiful letter writing app",
+    "githubUrl": "https://akaash-nigam.github.io/iOS_Letters/"
+  },
+  {
+    "name": "MealMindAI",
+    "platform": "ios",
+    "url": "/mealmindai",
+    "description": "AI meal planning and nutrition",
+    "githubUrl": "https://akaash-nigam.github.io/iOS_MealMindAI/"
+  },
+  {
+    "name": "PhotoProAI",
+    "platform": "ios",
+    "url": "/photoproai",
+    "description": "Professional AI photo editing",
+    "githubUrl": "https://akaash-nigam.github.io/iOS_PhotoProAI/"
+  },
+  {
+    "name": "ReadTrackAI",
+    "platform": "ios",
+    "url": "/readtrackai",
+    "description": "AI-powered reading tracker",
+    "githubUrl": "https://akaash-nigam.github.io/iOS_ReadTrackAI/"
+  },
+  {
+    "name": "SleepWiseAI",
+    "platform": "ios",
+    "url": "/sleepwiseai",
+    "description": "Smart sleep improvement coach",
+    "githubUrl": "https://akaash-nigam.github.io/iOS_SleepWiseAI/"
+  },
+  {
+    "name": "TaskMasterAI",
+    "platform": "ios",
+    "url": "/taskmasterai",
+    "description": "AI task and project management",
+    "githubUrl": "https://akaash-nigam.github.io/iOS_TaskMasterAI/"
+  },
+  {
+    "name": "TaxWiseAI",
+    "platform": "ios",
+    "url": "/taxwiseai",
+    "description": "Smart tax planning assistant",
+    "githubUrl": "https://akaash-nigam.github.io/iOS_TaxWiseAI/"
+  },
+  {
+    "name": "TherapySpaceAI",
+    "platform": "ios",
+    "url": "/therapyspaceai",
+    "description": "Mental wellness and therapy support",
+    "githubUrl": "https://akaash-nigam.github.io/iOS_TherapySpaceAI/"
+  },
+  {
+    "name": "TripGeniusAI",
+    "platform": "ios",
+    "url": "/tripgeniusai",
+    "description": "AI travel planning assistant",
+    "githubUrl": "https://akaash-nigam.github.io/iOS_TripGeniusAI/"
+  },
+  {
+    "name": "GlowAI",
+    "platform": "android",
+    "url": "/glowai",
+    "description": "AI beauty and skincare advisor",
+    "githubUrl": "https://akaash-nigam.github.io/android_GlowAI/"
+  },
+  {
+    "name": "SafeCalc",
+    "platform": "android",
+    "url": "/safecalc",
+    "description": "Privacy-focused calculator",
+    "githubUrl": "https://akaash-nigam.github.io/android_SafeCalc/"
+  },
+  {
+    "name": "BoloCare",
+    "platform": "android",
+    "url": "/bolocare",
+    "description": "Voice-based healthcare assistant",
+    "githubUrl": "https://akaash-nigam.github.io/android_BoloCare/"
+  },
+  {
+    "name": "TrainSathi",
+    "platform": "android",
+    "url": "/trainsathi",
+    "description": "Indian Railways companion",
+    "githubUrl": "https://akaash-nigam.github.io/android_TrainSathi/"
+  },
+  {
+    "name": "Ayushman Card Manager",
+    "platform": "android",
+    "url": "/ayushman",
+    "description": "Health insurance card management",
+    "githubUrl": "https://akaash-nigam.github.io/android_ayushman-card-manager/"
+  },
+  {
+    "name": "Bachat Sahayak",
+    "platform": "android",
+    "url": "/bachat",
+    "description": "Savings and budget tracker",
+    "githubUrl": "https://akaash-nigam.github.io/android_bachat-sahayak/"
+  },
+  {
+    "name": "Beti Bachao",
+    "platform": "android",
+    "url": "/betibachao",
+    "description": "Girl child welfare schemes",
+    "githubUrl": "https://akaash-nigam.github.io/android_beti-bachao/"
+  },
+  {
+    "name": "Bhasha Buddy",
+    "platform": "android",
+    "url": "/bhashabuddy",
+    "description": "Indian language learning",
+    "githubUrl": "https://akaash-nigam.github.io/android_bhasha-buddy/"
+  },
+  {
+    "name": "Dukaan Sahayak",
+    "platform": "android",
+    "url": "/dukaan",
+    "description": "Shop management assistant",
+    "githubUrl": "https://akaash-nigam.github.io/android_dukaan-sahayak/"
+  },
+  {
+    "name": "Fasal Rakshak",
+    "platform": "android",
+    "url": "/fasal",
+    "description": "Crop protection guide",
+    "githubUrl": "https://akaash-nigam.github.io/android_fasal-rakshak/"
+  },
+  {
+    "name": "Gaon Gateway",
+    "platform": "android",
+    "url": "/gaon",
+    "description": "Village connectivity hub",
+    "githubUrl": "https://akaash-nigam.github.io/android_gaon-gateway/"
+  },
+  {
+    "name": "Karz Mukti",
+    "platform": "android",
+    "url": "/karz",
+    "description": "Debt freedom planner",
+    "githubUrl": "https://akaash-nigam.github.io/android_karz-mukti/"
+  },
+  {
+    "name": "Kisan Sahayak",
+    "platform": "android",
+    "url": "/kisan",
+    "description": "Farmer assistance app",
+    "githubUrl": "https://akaash-nigam.github.io/android_kisan-sahayak/"
+  },
+  {
+    "name": "Krishi Mitra",
+    "platform": "android",
+    "url": "/krishi",
+    "description": "Agriculture companion",
+    "githubUrl": "https://akaash-nigam.github.io/android_krishi-mitra/"
+  },
+  {
+    "name": "Majdoor Mitra",
+    "platform": "android",
+    "url": "/majdoor",
+    "description": "Labor rights and jobs",
+    "githubUrl": "https://akaash-nigam.github.io/android_majdoor-mitra/"
+  },
+  {
+    "name": "Pani Rakshak",
+    "platform": "android",
+    "url": "/pani",
+    "description": "Water conservation tracker",
+    "githubUrl": "https://akaash-nigam.github.io/android_pani-rakshak/"
+  },
+  {
+    "name": "Poshan Tracker",
+    "platform": "android",
+    "url": "/poshan",
+    "description": "Nutrition monitoring",
+    "githubUrl": "https://akaash-nigam.github.io/android_poshan-tracker/"
+  },
+  {
+    "name": "Safar Saathi",
+    "platform": "android",
+    "url": "/safar",
+    "description": "Travel companion",
+    "githubUrl": "https://akaash-nigam.github.io/android_safar-saathi/"
+  },
+  {
+    "name": "Sarkar Seva",
+    "platform": "android",
+    "url": "/sarkar",
+    "description": "Government services portal",
+    "githubUrl": "https://akaash-nigam.github.io/android_sarkar-seva/"
+  },
+  {
+    "name": "Seekho Kamao",
+    "platform": "android",
+    "url": "/seekhokamao",
+    "description": "Skill development platform",
+    "githubUrl": "https://akaash-nigam.github.io/android_seekho-kamao/"
+  },
+  {
+    "name": "Svachh Sahayak",
+    "platform": "android",
+    "url": "/svachh",
+    "description": "Cleanliness campaign support",
+    "githubUrl": "https://akaash-nigam.github.io/android_svachh-sahayak/"
+  },
+  {
+    "name": "Swasthya Sahayak",
+    "platform": "android",
+    "url": "/swasthya",
+    "description": "Health services guide",
+    "githubUrl": "https://akaash-nigam.github.io/android_swasthya-sahayak/"
+  },
+  {
+    "name": "Vidyarthi Sahayak",
+    "platform": "android",
+    "url": "/vidyarthi",
+    "description": "Student assistance app",
+    "githubUrl": "https://akaash-nigam.github.io/android_vidyarthi-sahayak/"
+  },
+  {
+    "name": "Village Job Board",
+    "platform": "android",
+    "url": "/villagejobs",
+    "description": "Rural employment platform",
+    "githubUrl": "https://akaash-nigam.github.io/android_village-job-board/"
+  },
+  {
+    "name": "BimaShield",
+    "platform": "android",
+    "url": "/bimashield",
+    "description": "Insurance advisor",
+    "githubUrl": "https://akaash-nigam.github.io/android_BimaShield/"
+  },
+  {
+    "name": "Apex LifeStyle",
+    "platform": "android",
+    "url": "/apex",
+    "description": "Luxury lifestyle management",
+    "githubUrl": "https://akaash-nigam.github.io/Android_ApexLifeStyle/"
+  },
+  {
+    "name": "Aurum",
+    "platform": "android",
+    "url": "/aurum",
+    "description": "Premium concierge services",
+    "githubUrl": "https://akaash-nigam.github.io/Android_Aurum/"
+  },
+  {
+    "name": "Bachat Sahayak",
+    "platform": "android",
+    "url": "/bachatsahayak",
+    "description": "Financial planning",
+    "githubUrl": "https://akaash-nigam.github.io/Android_BachatSahayak/"
+  },
+  {
+    "name": "Daily Needs Delivery",
+    "platform": "android",
+    "url": "/dailyneeds",
+    "description": "Essential goods delivery",
+    "githubUrl": "https://akaash-nigam.github.io/Android_DailyNeedsDelivery/"
+  },
+  {
+    "name": "Elder Care Connect",
+    "platform": "android",
+    "url": "/eldercare",
+    "description": "Senior citizen care",
+    "githubUrl": "https://akaash-nigam.github.io/Android_ElderCareConnect/"
+  },
+  {
+    "name": "Family Hub",
+    "platform": "android",
+    "url": "/familyhub",
+    "description": "Family coordination app",
+    "githubUrl": "https://akaash-nigam.github.io/Android_FamilyHub/"
+  },
+  {
+    "name": "Healthy Family",
+    "platform": "android",
+    "url": "/healthyfamily",
+    "description": "Family health tracker",
+    "githubUrl": "https://akaash-nigam.github.io/Android_HealthyFamily/"
+  },
+  {
+    "name": "Pinnacle",
+    "platform": "android",
+    "url": "/pinnacle",
+    "description": "Achievement tracking",
+    "githubUrl": "https://akaash-nigam.github.io/Android_Pinnacle/"
+  },
+  {
+    "name": "CreatorSuite",
+    "platform": "macos",
+    "url": "/creatorsuite",
+    "description": "AI content creation studio",
+    "githubUrl": "https://akaash-nigam.github.io/mac_CreatorSuite/"
+  },
+  {
+    "name": "HealthCompanion",
+    "platform": "macos",
+    "url": "/healthcompanion",
+    "description": "Comprehensive health management",
+    "githubUrl": "https://akaash-nigam.github.io/mac_HealthCompanion/"
+  },
+  {
+    "name": "LearnFlow",
+    "platform": "macos",
+    "url": "/learnflow",
+    "description": "Advanced learning platform",
+    "githubUrl": "https://akaash-nigam.github.io/mac_LearnFlow/"
+  },
+  {
+    "name": "LifeLens",
+    "platform": "macos",
+    "url": "/lifelens",
+    "description": "Life analytics and insights",
+    "githubUrl": "https://akaash-nigam.github.io/mac_LifeLens/"
+  },
+  {
+    "name": "LifeOS",
+    "platform": "macos",
+    "url": "/lifeos",
+    "description": "Complete life management system",
+    "githubUrl": "https://akaash-nigam.github.io/mac_LifeOS/"
+  },
+  {
+    "name": "MemoryVault",
+    "platform": "macos",
+    "url": "/memoryvault",
+    "description": "Secure memory preservation",
+    "githubUrl": "https://akaash-nigam.github.io/mac_MemoryVault/"
+  },
+  {
+    "name": "AI Agent Coordinator",
+    "platform": "visionos",
+    "url": "/aiagent",
+    "description": "Multi-agent AI orchestration",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_ai-agent-coordinator/"
+  },
+  {
+    "name": "Energy Grid Visualizer",
+    "platform": "visionos",
+    "url": "/energygrid",
+    "description": "Power grid management visualization",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_energy-grid-visualizer/"
+  },
+  {
+    "name": "Construction Site Manager",
+    "platform": "visionos",
+    "url": "/construction",
+    "description": "Spatial construction management",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_construction-site-manager/"
+  },
+  {
+    "name": "Digital Twin Orchestrator",
+    "platform": "visionos",
+    "url": "/digitaltwin",
+    "description": "Real-time digital twin platform",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_digital-twin-orchestrator/"
+  },
+  {
+    "name": "Healthcare Ecosystem",
+    "platform": "visionos",
+    "url": "/healthcare",
+    "description": "Medical facility coordination",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_healthcare-ecosystem-orchestrator/"
+  },
+  {
+    "name": "Industrial CAD/CAM Suite",
+    "platform": "visionos",
+    "url": "/industrialcad",
+    "description": "Professional design tools",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_industrial-cad-cam-suite/"
+  },
+  {
+    "name": "Legal Discovery Universe",
+    "platform": "visionos",
+    "url": "/legaldiscovery",
+    "description": "Legal document analysis",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_legal-discovery-universe/"
+  },
+  {
+    "name": "Retail Space Optimizer",
+    "platform": "visionos",
+    "url": "/retailspace",
+    "description": "Store layout optimization",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_retail-space-optimizer/"
+  },
+  {
+    "name": "Spatial ERP",
+    "platform": "visionos",
+    "url": "/spatialerp",
+    "description": "Enterprise resource planning",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_spatial-erp/"
+  },
+  {
+    "name": "Spatial Meeting Platform",
+    "platform": "visionos",
+    "url": "/spatialmeeting",
+    "description": "Immersive collaboration",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_spatial-meeting-platform/"
+  },
+  {
+    "name": "Spatial Wellness Platform",
+    "platform": "visionos",
+    "url": "/spatialwellness",
+    "description": "Holistic wellness in 3D",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_spatial-wellness-platform/"
+  },
+  {
+    "name": "Supply Chain Control Tower",
+    "platform": "visionos",
+    "url": "/supplychain",
+    "description": "Logistics visualization",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_supply-chain-control-tower/"
+  },
+  {
+    "name": "Arena Esports",
+    "platform": "visionos",
+    "url": "/arenaesports",
+    "description": "Competitive gaming arena",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_arena-esports/"
+  },
+  {
+    "name": "City Builder Tabletop",
+    "platform": "visionos",
+    "url": "/citybuilder",
+    "description": "Tabletop city building",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_city-builder-tabletop/"
+  },
+  {
+    "name": "Escape Room Network",
+    "platform": "visionos",
+    "url": "/escaperoom",
+    "description": "Virtual escape rooms",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_escape-room-network/"
+  },
+  {
+    "name": "Hide and Seek Evolved",
+    "platform": "visionos",
+    "url": "/hideandseek",
+    "description": "Spatial hide and seek",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_hide-and-seek-evolved/"
+  },
+  {
+    "name": "Holographic Board Games",
+    "platform": "visionos",
+    "url": "/boardgames",
+    "description": "3D board game collection",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_holographic-board-games/"
+  },
+  {
+    "name": "Home Defense Strategy",
+    "platform": "visionos",
+    "url": "/homedefense",
+    "description": "Strategic defense game",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_home-defense-strategy/"
+  },
+  {
+    "name": "Interactive Theater",
+    "platform": "visionos",
+    "url": "/theater",
+    "description": "Immersive storytelling",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_interactive-theater/"
+  },
+  {
+    "name": "My Spatial Life",
+    "platform": "visionos",
+    "url": "/myspatiallife",
+    "description": "Life simulation in 3D",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_myspatial-life/"
+  },
+  {
+    "name": "Mystery Investigation",
+    "platform": "visionos",
+    "url": "/mystery",
+    "description": "Detective adventure game",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_mystery-investigation/"
+  },
+  {
+    "name": "Parkour Pathways",
+    "platform": "visionos",
+    "url": "/parkour",
+    "description": "Spatial parkour challenge",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_parkour-pathways/"
+  },
+  {
+    "name": "Reality Realms RPG",
+    "platform": "visionos",
+    "url": "/realityrealms",
+    "description": "Mixed reality RPG",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_reality-realms-rpg/"
+  },
+  {
+    "name": "Spatial Music Studio",
+    "platform": "visionos",
+    "url": "/musicstudio",
+    "description": "3D music creation",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_spatial-music-studio/"
+  },
+  {
+    "name": "Virtual Pet Ecosystem",
+    "platform": "visionos",
+    "url": "/virtualpet",
+    "description": "Virtual pet world",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_virtual-pet-ecosystem/"
+  },
+  {
+    "name": "Living Building System",
+    "platform": "visionos",
+    "url": "/livingbuilding",
+    "description": "Smart building management",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Living-Building-System/"
+  },
+  {
+    "name": "Research Web Crawler",
+    "platform": "visionos",
+    "url": "/researchcrawler",
+    "description": "Academic research tool",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Research-Web-Crawler/"
+  },
+  {
+    "name": "Spatial Code Reviewer",
+    "platform": "visionos",
+    "url": "/codereview",
+    "description": "Immersive code review",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Spatial-Code-Reviewer/"
+  },
+  {
+    "name": "Architecture Time Machine",
+    "platform": "visionos",
+    "url": "/archtime",
+    "description": "Historical architecture explorer",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Architecture-Time-Machine/"
+  },
+  {
+    "name": "Architectural Visualization Studio",
+    "platform": "visionos",
+    "url": "/archviz",
+    "description": "Professional visualization",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_architectural-visualization-studio/"
+  },
+  {
+    "name": "Board Meeting Dimension",
+    "platform": "visionos",
+    "url": "/boardmeeting",
+    "description": "Executive meeting space",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_board-meeting-dimension/"
+  },
+  {
+    "name": "Business Intelligence Suite",
+    "platform": "visionos",
+    "url": "/bisuite",
+    "description": "Data analytics platform",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_business-intelligence-suite/"
+  },
+  {
+    "name": "Cybersecurity Command Center",
+    "platform": "visionos",
+    "url": "/cybersecurity",
+    "description": "Security operations center",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_cybersecurity-command-center/"
+  },
+  {
+    "name": "Executive Briefing",
+    "platform": "visionos",
+    "url": "/execbriefing",
+    "description": "Executive dashboard",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_executive-briefing/"
+  },
+  {
+    "name": "Field Service AR",
+    "platform": "visionos",
+    "url": "/fieldservice",
+    "description": "Field technician assistant",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_field-service-ar/"
+  },
+  {
+    "name": "Financial Operations Platform",
+    "platform": "visionos",
+    "url": "/finops",
+    "description": "Financial management suite",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_financial-operations-platform/"
+  },
+  {
+    "name": "Financial Trading Cockpit",
+    "platform": "visionos",
+    "url": "/trading",
+    "description": "Professional trading platform",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Financial-Trading-Cockpit/"
+  },
+  {
+    "name": "Financial Trading Dimension",
+    "platform": "visionos",
+    "url": "/tradingdim",
+    "description": "Market visualization",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_financial-trading-dimension/"
+  },
+  {
+    "name": "Industrial Safety Simulator",
+    "platform": "visionos",
+    "url": "/safetysim",
+    "description": "Safety training platform",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_industrial-safety-simulator/"
+  },
+  {
+    "name": "Innovation Laboratory",
+    "platform": "visionos",
+    "url": "/innovationlab",
+    "description": "R&D collaboration space",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_innovation-laboratory/"
+  },
+  {
+    "name": "Institutional Memory Vault",
+    "platform": "visionos",
+    "url": "/memoryvault",
+    "description": "Knowledge preservation",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_institutional-memory-vault/"
+  },
+  {
+    "name": "Insurance Risk Assessor",
+    "platform": "visionos",
+    "url": "/riskassessor",
+    "description": "Insurance risk analysis",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_insurance-risk-assessor/"
+  },
+  {
+    "name": "Language Immersion Rooms",
+    "platform": "visionos",
+    "url": "/language",
+    "description": "Language learning environment",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Language-Immersion-Rooms/"
+  },
+  {
+    "name": "Medical Imaging Suite",
+    "platform": "visionos",
+    "url": "/medimaging",
+    "description": "Medical visualization tools",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Medical-Imaging-Suite/"
+  },
+  {
+    "name": "Molecular Design Platform",
+    "platform": "visionos",
+    "url": "/molecular",
+    "description": "Chemical design tool",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_molecular-design-platform/"
+  },
+  {
+    "name": "Personal Finance Navigator",
+    "platform": "visionos",
+    "url": "/finnav",
+    "description": "Personal finance management",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Personal-Finance-Navigator/"
+  },
+  {
+    "name": "Physical Digital Twins",
+    "platform": "visionos",
+    "url": "/physicaltwins",
+    "description": "Physical asset mirroring",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Physical-Digital-Twins/"
+  },
+  {
+    "name": "Reality Annotation Platform",
+    "platform": "visionos",
+    "url": "/annotation",
+    "description": "Spatial annotation tool",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Reality-Annotation-Platform/"
+  },
+  {
+    "name": "Real Estate Spatial",
+    "platform": "visionos",
+    "url": "/realestate",
+    "description": "Property visualization",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_real-estate-spatial/"
+  },
+  {
+    "name": "Regulatory Navigation Space",
+    "platform": "visionos",
+    "url": "/regulatory",
+    "description": "Compliance navigator",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_regulatory-navigation-space/"
+  },
+  {
+    "name": "Smart Agriculture",
+    "platform": "visionos",
+    "url": "/smartag",
+    "description": "Precision farming platform",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_smart-agriculture/"
+  },
+  {
+    "name": "Smart City Command Platform",
+    "platform": "visionos",
+    "url": "/smartcity",
+    "description": "Urban management system",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_smart-city-command-platform/"
+  },
+  {
+    "name": "Spatial HCM",
+    "platform": "visionos",
+    "url": "/spatialhcm",
+    "description": "Human capital management",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_spatial-hcm/"
+  },
+  {
+    "name": "Spatial Screenplay Workshop",
+    "platform": "visionos",
+    "url": "/screenplay",
+    "description": "Screenwriting studio",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Spatial-Screenplay-Workshop/"
+  },
+  {
+    "name": "Surgical Training Universe",
+    "platform": "visionos",
+    "url": "/surgical",
+    "description": "Medical training simulator",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_surgical-training-universe/"
+  },
+  {
+    "name": "Sustainability Command",
+    "platform": "visionos",
+    "url": "/sustainability",
+    "description": "Environmental monitoring",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_sustainability-command/"
+  },
+  {
+    "name": "Virtual Collaboration Arena",
+    "platform": "visionos",
+    "url": "/collaboration",
+    "description": "Team workspace",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_virtual-collaboration-arena/"
+  },
+  {
+    "name": "Wardrobe Consultant",
+    "platform": "visionos",
+    "url": "/wardrobe",
+    "description": "Fashion styling assistant",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Wardrobe-Consultant/"
+  },
+  {
+    "name": "Mindfulness Meditation Realms",
+    "platform": "visionos",
+    "url": "/mindfulness",
+    "description": "Meditative experiences",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_mindfulness-meditation-realms/"
+  },
+  {
+    "name": "Narrative Story Worlds",
+    "platform": "visionos",
+    "url": "/narrative",
+    "description": "Interactive narratives",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_narrative-story-worlds/"
+  },
+  {
+    "name": "Reality Minecraft",
+    "platform": "visionos",
+    "url": "/realitymine",
+    "description": "Spatial building game",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_reality-minecraft/"
+  },
+  {
+    "name": "Rhythm Flow",
+    "platform": "visionos",
+    "url": "/rhythm",
+    "description": "Musical rhythm game",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_rhythm-flow/"
+  },
+  {
+    "name": "Spatial Arena Championship",
+    "platform": "visionos",
+    "url": "/spatialarena",
+    "description": "Competitive arena battles",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_spatial-arena-championship/"
+  },
+  {
+    "name": "Spatial Pictionary",
+    "platform": "visionos",
+    "url": "/pictionary",
+    "description": "3D drawing game",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_spatial-pictionary/"
+  },
+  {
+    "name": "Time Machine Adventures",
+    "platform": "visionos",
+    "url": "/timemachine",
+    "description": "Historical adventure game",
+    "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_time-machine-adventures/"
+  }
+]
