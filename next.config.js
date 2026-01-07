@@ -117,11 +117,11 @@ const nextConfig = {
       // Letters - ios
       {
         source: '/letters',
-        destination: 'https://akaash-nigam.github.io/iOS_Letters/',
+        destination: 'https://akaash-nigam.github.io/ios_letters/',
       },
       {
         source: '/letters/:path*',
-        destination: 'https://akaash-nigam.github.io/iOS_Letters/:path*',
+        destination: 'https://akaash-nigam.github.io/ios_letters/:path*',
       },
       // LocaleConnect - ios
       {
