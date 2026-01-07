@@ -3,6 +3,54 @@ const nextConfig = {
   output: 'standalone',
   async rewrites() {
     return [
+      // =====================
+      // iOS Apps
+      // =====================
+      // AIPersonalTrainer - ios
+      {
+        source: '/aipersonaltrainer',
+        destination: 'https://akaash-nigam.github.io/iOS_AIPersonalTrainer/',
+      },
+      {
+        source: '/aipersonaltrainer/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_AIPersonalTrainer/:path*',
+      },
+      // AmericaBizPro - ios
+      {
+        source: '/americabizpro',
+        destination: 'https://akaash-nigam.github.io/iOS_AmericaBizPro/',
+      },
+      {
+        source: '/americabizpro/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_AmericaBizPro/:path*',
+      },
+      // BharatBusiness - ios
+      {
+        source: '/bharatbusiness',
+        destination: 'https://akaash-nigam.github.io/iOS_BharatBusiness/',
+      },
+      {
+        source: '/bharatbusiness/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_BharatBusiness/:path*',
+      },
+      // BilingualCivicAssistant - ios
+      {
+        source: '/bilingualcivic',
+        destination: 'https://akaash-nigam.github.io/iOS_BilingualCivicAssistant/',
+      },
+      {
+        source: '/bilingualcivic/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_BilingualCivicAssistant/:path*',
+      },
+      // BorderBuddy - ios
+      {
+        source: '/borderbuddy',
+        destination: 'https://akaash-nigam.github.io/iOS_BorderBuddy/',
+      },
+      {
+        source: '/borderbuddy/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_BorderBuddy/:path*',
+      },
       // CalmSpaceAI - ios
       {
         source: '/calmspaceai',
@@ -11,6 +59,24 @@ const nextConfig = {
       {
         source: '/calmspaceai/:path*',
         destination: 'https://akaash-nigam.github.io/iOS_CalmSpaceAI/:path*',
+      },
+      // CanadaBizPro - ios
+      {
+        source: '/canadabizpro',
+        destination: 'https://akaash-nigam.github.io/iOS_CanadaBizPro/',
+      },
+      {
+        source: '/canadabizpro/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_CanadaBizPro/:path*',
+      },
+      // CrossBorderCompanion - ios
+      {
+        source: '/crossbordercompanion',
+        destination: 'https://akaash-nigam.github.io/iOS_CrossBorderCompanion/',
+      },
+      {
+        source: '/crossbordercompanion/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_CrossBorderCompanion/:path*',
       },
       // ExpenseAI - ios
       {
@@ -39,6 +105,15 @@ const nextConfig = {
         source: '/fluentai/:path*',
         destination: 'https://akaash-nigam.github.io/iOS_FluentAI/:path*',
       },
+      // IndigenousLanguagesLand - ios
+      {
+        source: '/indigenouslanguages',
+        destination: 'https://akaash-nigam.github.io/iOS_IndigenousLanguagesLand/',
+      },
+      {
+        source: '/indigenouslanguages/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_IndigenousLanguagesLand/:path*',
+      },
       // Letters - ios
       {
         source: '/letters',
@@ -48,6 +123,33 @@ const nextConfig = {
         source: '/letters/:path*',
         destination: 'https://akaash-nigam.github.io/iOS_Letters/:path*',
       },
+      // LocaleConnect - ios
+      {
+        source: '/localeconnect',
+        destination: 'https://akaash-nigam.github.io/iOS_LocaleConnect/',
+      },
+      {
+        source: '/localeconnect/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_LocaleConnect/:path*',
+      },
+      // MapleFinance - ios
+      {
+        source: '/maplefinance',
+        destination: 'https://akaash-nigam.github.io/iOS_MapleFinance/',
+      },
+      {
+        source: '/maplefinance/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_MapleFinance/:path*',
+      },
+      // MapleFresh - ios
+      {
+        source: '/maplefresh',
+        destination: 'https://akaash-nigam.github.io/iOS_MapleFresh/',
+      },
+      {
+        source: '/maplefresh/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_MapleFresh/:path*',
+      },
       // MealMindAI - ios
       {
         source: '/mealmindai',
@@ -56,6 +158,42 @@ const nextConfig = {
       {
         source: '/mealmindai/:path*',
         destination: 'https://akaash-nigam.github.io/iOS_MealMindAI/:path*',
+      },
+      // MediQueue - ios
+      {
+        source: '/mediqueue',
+        destination: 'https://akaash-nigam.github.io/iOS_MediQueue/',
+      },
+      {
+        source: '/mediqueue/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_MediQueue/:path*',
+      },
+      // NewcomerLaunchpad - ios
+      {
+        source: '/newcomerlaunchpad',
+        destination: 'https://akaash-nigam.github.io/iOS_NewcomerLaunchpad/',
+      },
+      {
+        source: '/newcomerlaunchpad/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_NewcomerLaunchpad/:path*',
+      },
+      // NorthernEssentials - ios
+      {
+        source: '/northernessentials',
+        destination: 'https://akaash-nigam.github.io/iOS_NorthernEssentials/',
+      },
+      {
+        source: '/northernessentials/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_NorthernEssentials/:path*',
+      },
+      // ParksWildfirePlanner - ios
+      {
+        source: '/parkswildfire',
+        destination: 'https://akaash-nigam.github.io/iOS_ParksWildfirePlanner/',
+      },
+      {
+        source: '/parkswildfire/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_ParksWildfirePlanner/:path*',
       },
       // PhotoProAI - ios
       {
@@ -83,6 +221,15 @@ const nextConfig = {
       {
         source: '/sleepwiseai/:path*',
         destination: 'https://akaash-nigam.github.io/iOS_SleepWiseAI/:path*',
+      },
+      // SMEExportWizard - ios
+      {
+        source: '/smeexportwizard',
+        destination: 'https://akaash-nigam.github.io/iOS_SMEExportWizard/',
+      },
+      {
+        source: '/smeexportwizard/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_SMEExportWizard/:path*',
       },
       // TaskMasterAI - ios
       {
@@ -120,41 +267,45 @@ const nextConfig = {
         source: '/tripgeniusai/:path*',
         destination: 'https://akaash-nigam.github.io/iOS_TripGeniusAI/:path*',
       },
-      // GlowAI - android
+      // WealthTrackAI - ios
       {
-        source: '/glowai',
-        destination: 'https://akaash-nigam.github.io/android_GlowAI/',
+        source: '/wealthtrackai',
+        destination: 'https://akaash-nigam.github.io/ios_wealthtrack-ai/',
       },
       {
-        source: '/glowai/:path*',
-        destination: 'https://akaash-nigam.github.io/android_GlowAI/:path*',
+        source: '/wealthtrackai/:path*',
+        destination: 'https://akaash-nigam.github.io/ios_wealthtrack-ai/:path*',
       },
-      // SafeCalc - android
+      // WinterWell - ios
       {
-        source: '/safecalc',
-        destination: 'https://akaash-nigam.github.io/android_SafeCalc/',
-      },
-      {
-        source: '/safecalc/:path*',
-        destination: 'https://akaash-nigam.github.io/android_SafeCalc/:path*',
-      },
-      // BoloCare - android
-      {
-        source: '/bolocare',
-        destination: 'https://akaash-nigam.github.io/android_BoloCare/',
+        source: '/winterwell',
+        destination: 'https://akaash-nigam.github.io/iOS_WinterWell/',
       },
       {
-        source: '/bolocare/:path*',
-        destination: 'https://akaash-nigam.github.io/android_BoloCare/:path*',
+        source: '/winterwell/:path*',
+        destination: 'https://akaash-nigam.github.io/iOS_WinterWell/:path*',
       },
-      // TrainSathi - android
+
+      // =====================
+      // Android Apps
+      // =====================
+      // ApexLifeStyle - android
       {
-        source: '/trainsathi',
-        destination: 'https://akaash-nigam.github.io/android_TrainSathi/',
+        source: '/apexlifestyle',
+        destination: 'https://akaash-nigam.github.io/Android_ApexLifeStyle/',
       },
       {
-        source: '/trainsathi/:path*',
-        destination: 'https://akaash-nigam.github.io/android_TrainSathi/:path*',
+        source: '/apexlifestyle/:path*',
+        destination: 'https://akaash-nigam.github.io/Android_ApexLifeStyle/:path*',
+      },
+      // Aurum - android
+      {
+        source: '/aurum',
+        destination: 'https://akaash-nigam.github.io/Android_Aurum/',
+      },
+      {
+        source: '/aurum/:path*',
+        destination: 'https://akaash-nigam.github.io/Android_Aurum/:path*',
       },
       // Ayushman Card Manager - android
       {
@@ -167,11 +318,11 @@ const nextConfig = {
       },
       // Bachat Sahayak - android
       {
-        source: '/bachat',
+        source: '/bachatsahayak',
         destination: 'https://akaash-nigam.github.io/android_bachat-sahayak/',
       },
       {
-        source: '/bachat/:path*',
+        source: '/bachatsahayak/:path*',
         destination: 'https://akaash-nigam.github.io/android_bachat-sahayak/:path*',
       },
       // Beti Bachao - android
@@ -192,103 +343,202 @@ const nextConfig = {
         source: '/bhashabuddy/:path*',
         destination: 'https://akaash-nigam.github.io/android_bhasha-buddy/:path*',
       },
+      // BimaShield - android
+      {
+        source: '/bimashield',
+        destination: 'https://akaash-nigam.github.io/android_BimaShield/',
+      },
+      {
+        source: '/bimashield/:path*',
+        destination: 'https://akaash-nigam.github.io/android_BimaShield/:path*',
+      },
+      // BoloCare - android
+      {
+        source: '/bolocare',
+        destination: 'https://akaash-nigam.github.io/android_BoloCare/',
+      },
+      {
+        source: '/bolocare/:path*',
+        destination: 'https://akaash-nigam.github.io/android_BoloCare/:path*',
+      },
+      // DailyNeedsDelivery - android
+      {
+        source: '/dailyneedsdelivery',
+        destination: 'https://akaash-nigam.github.io/Android_DailyNeedsDelivery/',
+      },
+      {
+        source: '/dailyneedsdelivery/:path*',
+        destination: 'https://akaash-nigam.github.io/Android_DailyNeedsDelivery/:path*',
+      },
       // Dukaan Sahayak - android
       {
-        source: '/dukaan',
+        source: '/dukaansahayak',
         destination: 'https://akaash-nigam.github.io/android_dukaan-sahayak/',
       },
       {
-        source: '/dukaan/:path*',
+        source: '/dukaansahayak/:path*',
         destination: 'https://akaash-nigam.github.io/android_dukaan-sahayak/:path*',
+      },
+      // ElderCareConnect - android
+      {
+        source: '/eldercareconnect',
+        destination: 'https://akaash-nigam.github.io/Android_ElderCareConnect/',
+      },
+      {
+        source: '/eldercareconnect/:path*',
+        destination: 'https://akaash-nigam.github.io/Android_ElderCareConnect/:path*',
+      },
+      // FamilyHub - android
+      {
+        source: '/familyhub',
+        destination: 'https://akaash-nigam.github.io/Android_FamilyHub/',
+      },
+      {
+        source: '/familyhub/:path*',
+        destination: 'https://akaash-nigam.github.io/Android_FamilyHub/:path*',
       },
       // Fasal Rakshak - android
       {
-        source: '/fasal',
+        source: '/fasalrakshak',
         destination: 'https://akaash-nigam.github.io/android_fasal-rakshak/',
       },
       {
-        source: '/fasal/:path*',
+        source: '/fasalrakshak/:path*',
         destination: 'https://akaash-nigam.github.io/android_fasal-rakshak/:path*',
       },
       // Gaon Gateway - android
       {
-        source: '/gaon',
+        source: '/gaongateway',
         destination: 'https://akaash-nigam.github.io/android_gaon-gateway/',
       },
       {
-        source: '/gaon/:path*',
+        source: '/gaongateway/:path*',
         destination: 'https://akaash-nigam.github.io/android_gaon-gateway/:path*',
+      },
+      // GlowAI - android
+      {
+        source: '/glowai',
+        destination: 'https://akaash-nigam.github.io/android_GlowAI/',
+      },
+      {
+        source: '/glowai/:path*',
+        destination: 'https://akaash-nigam.github.io/android_GlowAI/:path*',
+      },
+      // HealthyFamily - android
+      {
+        source: '/healthyfamily',
+        destination: 'https://akaash-nigam.github.io/Android_HealthyFamily/',
+      },
+      {
+        source: '/healthyfamily/:path*',
+        destination: 'https://akaash-nigam.github.io/Android_HealthyFamily/:path*',
       },
       // Karz Mukti - android
       {
-        source: '/karz',
+        source: '/karzmukti',
         destination: 'https://akaash-nigam.github.io/android_karz-mukti/',
       },
       {
-        source: '/karz/:path*',
+        source: '/karzmukti/:path*',
         destination: 'https://akaash-nigam.github.io/android_karz-mukti/:path*',
       },
       // Kisan Sahayak - android
       {
-        source: '/kisan',
+        source: '/kisansahayak',
         destination: 'https://akaash-nigam.github.io/android_kisan-sahayak/',
       },
       {
-        source: '/kisan/:path*',
+        source: '/kisansahayak/:path*',
         destination: 'https://akaash-nigam.github.io/android_kisan-sahayak/:path*',
       },
       // Krishi Mitra - android
       {
-        source: '/krishi',
+        source: '/krishimitra',
         destination: 'https://akaash-nigam.github.io/android_krishi-mitra/',
       },
       {
-        source: '/krishi/:path*',
+        source: '/krishimitra/:path*',
         destination: 'https://akaash-nigam.github.io/android_krishi-mitra/:path*',
       },
       // Majdoor Mitra - android
       {
-        source: '/majdoor',
+        source: '/majdoormitra',
         destination: 'https://akaash-nigam.github.io/android_majdoor-mitra/',
       },
       {
-        source: '/majdoor/:path*',
+        source: '/majdoormitra/:path*',
         destination: 'https://akaash-nigam.github.io/android_majdoor-mitra/:path*',
       },
       // Pani Rakshak - android
       {
-        source: '/pani',
+        source: '/panirakshak',
         destination: 'https://akaash-nigam.github.io/android_pani-rakshak/',
       },
       {
-        source: '/pani/:path*',
+        source: '/panirakshak/:path*',
         destination: 'https://akaash-nigam.github.io/android_pani-rakshak/:path*',
+      },
+      // Pinnacle - android
+      {
+        source: '/pinnacle',
+        destination: 'https://akaash-nigam.github.io/Android_Pinnacle/',
+      },
+      {
+        source: '/pinnacle/:path*',
+        destination: 'https://akaash-nigam.github.io/Android_Pinnacle/:path*',
       },
       // Poshan Tracker - android
       {
-        source: '/poshan',
+        source: '/poshantracker',
         destination: 'https://akaash-nigam.github.io/android_poshan-tracker/',
       },
       {
-        source: '/poshan/:path*',
+        source: '/poshantracker/:path*',
         destination: 'https://akaash-nigam.github.io/android_poshan-tracker/:path*',
+      },
+      // RasodaManager - android
+      {
+        source: '/rasodamanager',
+        destination: 'https://akaash-nigam.github.io/Android_RasodaManager/',
+      },
+      {
+        source: '/rasodamanager/:path*',
+        destination: 'https://akaash-nigam.github.io/Android_RasodaManager/:path*',
+      },
+      // RentSmart - android
+      {
+        source: '/rentsmart',
+        destination: 'https://akaash-nigam.github.io/Android_RentSmart/',
+      },
+      {
+        source: '/rentsmart/:path*',
+        destination: 'https://akaash-nigam.github.io/Android_RentSmart/:path*',
       },
       // Safar Saathi - android
       {
-        source: '/safar',
+        source: '/safarsaathi',
         destination: 'https://akaash-nigam.github.io/android_safar-saathi/',
       },
       {
-        source: '/safar/:path*',
+        source: '/safarsaathi/:path*',
         destination: 'https://akaash-nigam.github.io/android_safar-saathi/:path*',
+      },
+      // SafeCalc - android
+      {
+        source: '/safecalc',
+        destination: 'https://akaash-nigam.github.io/android_SafeCalc/',
+      },
+      {
+        source: '/safecalc/:path*',
+        destination: 'https://akaash-nigam.github.io/android_SafeCalc/:path*',
       },
       // Sarkar Seva - android
       {
-        source: '/sarkar',
+        source: '/sarkarseva',
         destination: 'https://akaash-nigam.github.io/android_sarkar-seva/',
       },
       {
-        source: '/sarkar/:path*',
+        source: '/sarkarseva/:path*',
         destination: 'https://akaash-nigam.github.io/android_sarkar-seva/:path*',
       },
       // Seekho Kamao - android
@@ -302,121 +552,71 @@ const nextConfig = {
       },
       // Svachh Sahayak - android
       {
-        source: '/svachh',
+        source: '/svachchsahayak',
         destination: 'https://akaash-nigam.github.io/android_svachh-sahayak/',
       },
       {
-        source: '/svachh/:path*',
+        source: '/svachchsahayak/:path*',
         destination: 'https://akaash-nigam.github.io/android_svachh-sahayak/:path*',
       },
       // Swasthya Sahayak - android
       {
-        source: '/swasthya',
+        source: '/swasthyasahayak',
         destination: 'https://akaash-nigam.github.io/android_swasthya-sahayak/',
       },
       {
-        source: '/swasthya/:path*',
+        source: '/swasthyasahayak/:path*',
         destination: 'https://akaash-nigam.github.io/android_swasthya-sahayak/:path*',
+      },
+      // TrainSathi - android
+      {
+        source: '/trainsathi',
+        destination: 'https://akaash-nigam.github.io/android_TrainSathi/',
+      },
+      {
+        source: '/trainsathi/:path*',
+        destination: 'https://akaash-nigam.github.io/android_TrainSathi/:path*',
+      },
+      // VahanTracker - android
+      {
+        source: '/vahantracker',
+        destination: 'https://akaash-nigam.github.io/Android_VahanTracker/',
+      },
+      {
+        source: '/vahantracker/:path*',
+        destination: 'https://akaash-nigam.github.io/Android_VahanTracker/:path*',
       },
       // Vidyarthi Sahayak - android
       {
-        source: '/vidyarthi',
+        source: '/vidyarthisahayak',
         destination: 'https://akaash-nigam.github.io/android_vidyarthi-sahayak/',
       },
       {
-        source: '/vidyarthi/:path*',
+        source: '/vidyarthisahayak/:path*',
         destination: 'https://akaash-nigam.github.io/android_vidyarthi-sahayak/:path*',
       },
       // Village Job Board - android
       {
-        source: '/villagejobs',
+        source: '/villagejobboard',
         destination: 'https://akaash-nigam.github.io/android_village-job-board/',
       },
       {
-        source: '/villagejobs/:path*',
+        source: '/villagejobboard/:path*',
         destination: 'https://akaash-nigam.github.io/android_village-job-board/:path*',
       },
-      // BimaShield - android
+      // WealthWise - android
       {
-        source: '/bimashield',
-        destination: 'https://akaash-nigam.github.io/android_BimaShield/',
+        source: '/wealthwise',
+        destination: 'https://akaash-nigam.github.io/Android_WealthWise/',
       },
       {
-        source: '/bimashield/:path*',
-        destination: 'https://akaash-nigam.github.io/android_BimaShield/:path*',
+        source: '/wealthwise/:path*',
+        destination: 'https://akaash-nigam.github.io/Android_WealthWise/:path*',
       },
-      // Apex LifeStyle - android
-      {
-        source: '/apex',
-        destination: 'https://akaash-nigam.github.io/Android_ApexLifeStyle/',
-      },
-      {
-        source: '/apex/:path*',
-        destination: 'https://akaash-nigam.github.io/Android_ApexLifeStyle/:path*',
-      },
-      // Aurum - android
-      {
-        source: '/aurum',
-        destination: 'https://akaash-nigam.github.io/Android_Aurum/',
-      },
-      {
-        source: '/aurum/:path*',
-        destination: 'https://akaash-nigam.github.io/Android_Aurum/:path*',
-      },
-      // Bachat Sahayak - android
-      {
-        source: '/bachatsahayak',
-        destination: 'https://akaash-nigam.github.io/Android_BachatSahayak/',
-      },
-      {
-        source: '/bachatsahayak/:path*',
-        destination: 'https://akaash-nigam.github.io/Android_BachatSahayak/:path*',
-      },
-      // Daily Needs Delivery - android
-      {
-        source: '/dailyneeds',
-        destination: 'https://akaash-nigam.github.io/Android_DailyNeedsDelivery/',
-      },
-      {
-        source: '/dailyneeds/:path*',
-        destination: 'https://akaash-nigam.github.io/Android_DailyNeedsDelivery/:path*',
-      },
-      // Elder Care Connect - android
-      {
-        source: '/eldercare',
-        destination: 'https://akaash-nigam.github.io/Android_ElderCareConnect/',
-      },
-      {
-        source: '/eldercare/:path*',
-        destination: 'https://akaash-nigam.github.io/Android_ElderCareConnect/:path*',
-      },
-      // Family Hub - android
-      {
-        source: '/familyhub',
-        destination: 'https://akaash-nigam.github.io/Android_FamilyHub/',
-      },
-      {
-        source: '/familyhub/:path*',
-        destination: 'https://akaash-nigam.github.io/Android_FamilyHub/:path*',
-      },
-      // Healthy Family - android
-      {
-        source: '/healthyfamily',
-        destination: 'https://akaash-nigam.github.io/Android_HealthyFamily/',
-      },
-      {
-        source: '/healthyfamily/:path*',
-        destination: 'https://akaash-nigam.github.io/Android_HealthyFamily/:path*',
-      },
-      // Pinnacle - android
-      {
-        source: '/pinnacle',
-        destination: 'https://akaash-nigam.github.io/Android_Pinnacle/',
-      },
-      {
-        source: '/pinnacle/:path*',
-        destination: 'https://akaash-nigam.github.io/Android_Pinnacle/:path*',
-      },
+
+      // =====================
+      // macOS Apps
+      // =====================
       // CreatorSuite - macos
       {
         source: '/creatorsuite',
@@ -464,39 +664,106 @@ const nextConfig = {
       },
       // MemoryVault - macos
       {
-        source: '/memoryvault',
+        source: '/macmemoryvault',
         destination: 'https://akaash-nigam.github.io/mac_MemoryVault/',
       },
       {
-        source: '/memoryvault/:path*',
+        source: '/macmemoryvault/:path*',
         destination: 'https://akaash-nigam.github.io/mac_MemoryVault/:path*',
       },
+
+      // =====================
+      // visionOS Apps - Enterprise
+      // =====================
       // AI Agent Coordinator - visionos
       {
-        source: '/aiagent',
+        source: '/aiagentcoordinator',
         destination: 'https://akaash-nigam.github.io/visionOS_ai-agent-coordinator/',
       },
       {
-        source: '/aiagent/:path*',
+        source: '/aiagentcoordinator/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_ai-agent-coordinator/:path*',
       },
-      // Energy Grid Visualizer - visionos
+      // Architectural Visualization Studio - visionos
       {
-        source: '/energygrid',
-        destination: 'https://akaash-nigam.github.io/visionOS_energy-grid-visualizer/',
+        source: '/archvizstudio',
+        destination: 'https://akaash-nigam.github.io/visionOS_architectural-visualization-studio/',
       },
       {
-        source: '/energygrid/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_energy-grid-visualizer/:path*',
+        source: '/archvizstudio/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_architectural-visualization-studio/:path*',
+      },
+      // Architecture Time Machine - visionos
+      {
+        source: '/architecturetimemachine',
+        destination: 'https://akaash-nigam.github.io/visionOS_Architecture-Time-Machine/',
+      },
+      {
+        source: '/architecturetimemachine/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Architecture-Time-Machine/:path*',
+      },
+      // Board Meeting Dimension - visionos
+      {
+        source: '/boardmeeting',
+        destination: 'https://akaash-nigam.github.io/visionOS_board-meeting-dimension/',
+      },
+      {
+        source: '/boardmeeting/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_board-meeting-dimension/:path*',
+      },
+      // Business Intelligence Suite - visionos
+      {
+        source: '/bisuite',
+        destination: 'https://akaash-nigam.github.io/visionOS_business-intelligence-suite/',
+      },
+      {
+        source: '/bisuite/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_business-intelligence-suite/:path*',
+      },
+      // Business Operating System - visionos
+      {
+        source: '/businessos',
+        destination: 'https://akaash-nigam.github.io/visionOS_business-operating-system/',
+      },
+      {
+        source: '/businessos/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_business-operating-system/:path*',
       },
       // Construction Site Manager - visionos
       {
-        source: '/construction',
+        source: '/constructionsite',
         destination: 'https://akaash-nigam.github.io/visionOS_construction-site-manager/',
       },
       {
-        source: '/construction/:path*',
+        source: '/constructionsite/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_construction-site-manager/:path*',
+      },
+      // Corporate University Platform - visionos
+      {
+        source: '/corporateuniversity',
+        destination: 'https://akaash-nigam.github.io/visionOS_corporate-university-platform/',
+      },
+      {
+        source: '/corporateuniversity/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_corporate-university-platform/:path*',
+      },
+      // Culture Architecture System - visionos
+      {
+        source: '/culturearchitecture',
+        destination: 'https://akaash-nigam.github.io/visionOS_culture-architecture-system/',
+      },
+      {
+        source: '/culturearchitecture/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_culture-architecture-system/:path*',
+      },
+      // Cybersecurity Command Center - visionos
+      {
+        source: '/cybersecuritycommand',
+        destination: 'https://akaash-nigam.github.io/visionOS_cybersecurity-command-center/',
+      },
+      {
+        source: '/cybersecuritycommand/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_cybersecurity-command-center/:path*',
       },
       // Digital Twin Orchestrator - visionos
       {
@@ -507,23 +774,149 @@ const nextConfig = {
         source: '/digitaltwin/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_digital-twin-orchestrator/:path*',
       },
-      // Healthcare Ecosystem - visionos
+      // Energy Grid Visualizer - visionos
       {
-        source: '/healthcare',
+        source: '/energygrid',
+        destination: 'https://akaash-nigam.github.io/visionOS_energy-grid-visualizer/',
+      },
+      {
+        source: '/energygrid/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_energy-grid-visualizer/:path*',
+      },
+      // Enterprise Apps - visionos
+      {
+        source: '/enterpriseapps',
+        destination: 'https://akaash-nigam.github.io/visionOS_enterprise-apps/',
+      },
+      {
+        source: '/enterpriseapps/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_enterprise-apps/:path*',
+      },
+      // Executive Briefing - visionos
+      {
+        source: '/executivebriefing',
+        destination: 'https://akaash-nigam.github.io/visionOS_executive-briefing/',
+      },
+      {
+        source: '/executivebriefing/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_executive-briefing/:path*',
+      },
+      // Field Service AR - visionos
+      {
+        source: '/fieldservicear',
+        destination: 'https://akaash-nigam.github.io/visionOS_field-service-ar/',
+      },
+      {
+        source: '/fieldservicear/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_field-service-ar/:path*',
+      },
+      // Financial Operations Platform - visionos
+      {
+        source: '/financialoperations',
+        destination: 'https://akaash-nigam.github.io/visionOS_financial-operations-platform/',
+      },
+      {
+        source: '/financialoperations/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_financial-operations-platform/:path*',
+      },
+      // Financial Trading Cockpit - visionos
+      {
+        source: '/financialtradingcockpit',
+        destination: 'https://akaash-nigam.github.io/visionOS_Financial-Trading-Cockpit/',
+      },
+      {
+        source: '/financialtradingcockpit/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Financial-Trading-Cockpit/:path*',
+      },
+      // Financial Trading Dimension - visionos
+      {
+        source: '/financialtrading',
+        destination: 'https://akaash-nigam.github.io/visionOS_financial-trading-dimension/',
+      },
+      {
+        source: '/financialtrading/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_financial-trading-dimension/:path*',
+      },
+      // Global War Room - visionos
+      {
+        source: '/globalwarroom',
+        destination: 'https://akaash-nigam.github.io/visionOS_global-war-room/',
+      },
+      {
+        source: '/globalwarroom/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_global-war-room/:path*',
+      },
+      // Healthcare Ecosystem Orchestrator - visionos
+      {
+        source: '/healthcareorchestrator',
         destination: 'https://akaash-nigam.github.io/visionOS_healthcare-ecosystem-orchestrator/',
       },
       {
-        source: '/healthcare/:path*',
+        source: '/healthcareorchestrator/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_healthcare-ecosystem-orchestrator/:path*',
+      },
+      // Home Maintenance Oracle - visionos
+      {
+        source: '/homemaintenance',
+        destination: 'https://akaash-nigam.github.io/visionOS_Home-Maintenance-Oracle/',
+      },
+      {
+        source: '/homemaintenance/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Home-Maintenance-Oracle/:path*',
       },
       // Industrial CAD/CAM Suite - visionos
       {
-        source: '/industrialcad',
+        source: '/industrialcadcam',
         destination: 'https://akaash-nigam.github.io/visionOS_industrial-cad-cam-suite/',
       },
       {
-        source: '/industrialcad/:path*',
+        source: '/industrialcadcam/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_industrial-cad-cam-suite/:path*',
+      },
+      // Industrial Safety Simulator - visionos
+      {
+        source: '/industrialsafety',
+        destination: 'https://akaash-nigam.github.io/visionOS_industrial-safety-simulator/',
+      },
+      {
+        source: '/industrialsafety/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_industrial-safety-simulator/:path*',
+      },
+      // Innovation Laboratory - visionos
+      {
+        source: '/innovationlab',
+        destination: 'https://akaash-nigam.github.io/visionOS_innovation-laboratory/',
+      },
+      {
+        source: '/innovationlab/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_innovation-laboratory/:path*',
+      },
+      // Institutional Memory Vault - visionos
+      {
+        source: '/institutionalmemory',
+        destination: 'https://akaash-nigam.github.io/visionOS_institutional-memory-vault/',
+      },
+      {
+        source: '/institutionalmemory/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_institutional-memory-vault/:path*',
+      },
+      // Insurance Risk Assessor - visionos
+      {
+        source: '/insurancerisk',
+        destination: 'https://akaash-nigam.github.io/visionOS_insurance-risk-assessor/',
+      },
+      {
+        source: '/insurancerisk/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_insurance-risk-assessor/:path*',
+      },
+      // Language Immersion Rooms - visionos
+      {
+        source: '/languageimmersion',
+        destination: 'https://akaash-nigam.github.io/visionOS_Language-Immersion-Rooms/',
+      },
+      {
+        source: '/languageimmersion/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Language-Immersion-Rooms/:path*',
       },
       // Legal Discovery Universe - visionos
       {
@@ -534,14 +927,149 @@ const nextConfig = {
         source: '/legaldiscovery/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_legal-discovery-universe/:path*',
       },
+      // Living Building System - visionos
+      {
+        source: '/livingbuilding',
+        destination: 'https://akaash-nigam.github.io/visionOS_Living-Building-System/',
+      },
+      {
+        source: '/livingbuilding/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Living-Building-System/:path*',
+      },
+      // Medical Imaging Suite - visionos
+      {
+        source: '/medicalimaging',
+        destination: 'https://akaash-nigam.github.io/visionOS_Medical-Imaging-Suite/',
+      },
+      {
+        source: '/medicalimaging/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Medical-Imaging-Suite/:path*',
+      },
+      // Military Defense Training - visionos
+      {
+        source: '/militarytraining',
+        destination: 'https://akaash-nigam.github.io/visionOS_military-defense-training/',
+      },
+      {
+        source: '/militarytraining/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_military-defense-training/:path*',
+      },
+      // Molecular Design Platform - visionos
+      {
+        source: '/moleculardesign',
+        destination: 'https://akaash-nigam.github.io/visionOS_molecular-design-platform/',
+      },
+      {
+        source: '/moleculardesign/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_molecular-design-platform/:path*',
+      },
+      // Personal Finance Navigator - visionos
+      {
+        source: '/personalfinancenav',
+        destination: 'https://akaash-nigam.github.io/visionOS_Personal-Finance-Navigator/',
+      },
+      {
+        source: '/personalfinancenav/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Personal-Finance-Navigator/:path*',
+      },
+      // Physical Digital Twins - visionos
+      {
+        source: '/physicaldigitaltwins',
+        destination: 'https://akaash-nigam.github.io/visionOS_Physical-Digital-Twins/',
+      },
+      {
+        source: '/physicaldigitaltwins/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Physical-Digital-Twins/:path*',
+      },
+      // Real Estate Spatial - visionos
+      {
+        source: '/realestatespatial',
+        destination: 'https://akaash-nigam.github.io/visionOS_real-estate-spatial/',
+      },
+      {
+        source: '/realestatespatial/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_real-estate-spatial/:path*',
+      },
+      // Reality Annotation Platform - visionos
+      {
+        source: '/realityannotation',
+        destination: 'https://akaash-nigam.github.io/visionOS_Reality-Annotation-Platform/',
+      },
+      {
+        source: '/realityannotation/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Reality-Annotation-Platform/:path*',
+      },
+      // Regulatory Navigation Space - visionos
+      {
+        source: '/regulatorynavigation',
+        destination: 'https://akaash-nigam.github.io/visionOS_regulatory-navigation-space/',
+      },
+      {
+        source: '/regulatorynavigation/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_regulatory-navigation-space/:path*',
+      },
+      // Research Collaboration Space - visionos
+      {
+        source: '/researchcollab',
+        destination: 'https://akaash-nigam.github.io/visionOS_research-collaboration-space/',
+      },
+      {
+        source: '/researchcollab/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_research-collaboration-space/:path*',
+      },
+      // Research Web Crawler - visionos
+      {
+        source: '/researchwebcrawler',
+        destination: 'https://akaash-nigam.github.io/visionOS_Research-Web-Crawler/',
+      },
+      {
+        source: '/researchwebcrawler/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Research-Web-Crawler/:path*',
+      },
       // Retail Space Optimizer - visionos
       {
-        source: '/retailspace',
+        source: '/retailoptimizer',
         destination: 'https://akaash-nigam.github.io/visionOS_retail-space-optimizer/',
       },
       {
-        source: '/retailspace/:path*',
+        source: '/retailoptimizer/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_retail-space-optimizer/:path*',
+      },
+      // Smart Agriculture - visionos
+      {
+        source: '/smartagriculture',
+        destination: 'https://akaash-nigam.github.io/visionOS_smart-agriculture/',
+      },
+      {
+        source: '/smartagriculture/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_smart-agriculture/:path*',
+      },
+      // Smart City Command Platform - visionos
+      {
+        source: '/smartcitycommand',
+        destination: 'https://akaash-nigam.github.io/visionOS_smart-city-command-platform/',
+      },
+      {
+        source: '/smartcitycommand/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_smart-city-command-platform/:path*',
+      },
+      // Spatial Code Reviewer - visionos
+      {
+        source: '/spatialcodereviewer',
+        destination: 'https://akaash-nigam.github.io/visionOS_Spatial-Code-Reviewer/',
+      },
+      {
+        source: '/spatialcodereviewer/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Spatial-Code-Reviewer/:path*',
+      },
+      // Spatial CRM - visionos
+      {
+        source: '/spatialcrm',
+        destination: 'https://akaash-nigam.github.io/visionOS_spatial-crm/',
+      },
+      {
+        source: '/spatialcrm/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_spatial-crm/:path*',
       },
       // Spatial ERP - visionos
       {
@@ -552,6 +1080,15 @@ const nextConfig = {
         source: '/spatialerp/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_spatial-erp/:path*',
       },
+      // Spatial HCM - visionos
+      {
+        source: '/spatialhcm',
+        destination: 'https://akaash-nigam.github.io/visionOS_spatial-hcm/',
+      },
+      {
+        source: '/spatialhcm/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_spatial-hcm/:path*',
+      },
       // Spatial Meeting Platform - visionos
       {
         source: '/spatialmeeting',
@@ -560,6 +1097,15 @@ const nextConfig = {
       {
         source: '/spatialmeeting/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_spatial-meeting-platform/:path*',
+      },
+      // Spatial Screenplay Workshop - visionos
+      {
+        source: '/spatialscreenplay',
+        destination: 'https://akaash-nigam.github.io/visionOS_Spatial-Screenplay-Workshop/',
+      },
+      {
+        source: '/spatialscreenplay/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Spatial-Screenplay-Workshop/:path*',
       },
       // Spatial Wellness Platform - visionos
       {
@@ -572,13 +1118,53 @@ const nextConfig = {
       },
       // Supply Chain Control Tower - visionos
       {
-        source: '/supplychain',
+        source: '/supplychaincontrol',
         destination: 'https://akaash-nigam.github.io/visionOS_supply-chain-control-tower/',
       },
       {
-        source: '/supplychain/:path*',
+        source: '/supplychaincontrol/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_supply-chain-control-tower/:path*',
       },
+      // Surgical Training Universe - visionos
+      {
+        source: '/surgicaltraining',
+        destination: 'https://akaash-nigam.github.io/visionOS_surgical-training-universe/',
+      },
+      {
+        source: '/surgicaltraining/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_surgical-training-universe/:path*',
+      },
+      // Sustainability Command - visionos
+      {
+        source: '/sustainabilitycommand',
+        destination: 'https://akaash-nigam.github.io/visionOS_sustainability-command/',
+      },
+      {
+        source: '/sustainabilitycommand/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_sustainability-command/:path*',
+      },
+      // Virtual Collaboration Arena - visionos
+      {
+        source: '/virtualcollaboration',
+        destination: 'https://akaash-nigam.github.io/visionOS_virtual-collaboration-arena/',
+      },
+      {
+        source: '/virtualcollaboration/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_virtual-collaboration-arena/:path*',
+      },
+      // Wardrobe Consultant - visionos
+      {
+        source: '/wardrobeconsultant',
+        destination: 'https://akaash-nigam.github.io/visionOS_Wardrobe-Consultant/',
+      },
+      {
+        source: '/wardrobeconsultant/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Wardrobe-Consultant/:path*',
+      },
+
+      // =====================
+      // visionOS Apps - Gaming
+      // =====================
       // Arena Esports - visionos
       {
         source: '/arenaesports',
@@ -617,11 +1203,11 @@ const nextConfig = {
       },
       // Holographic Board Games - visionos
       {
-        source: '/boardgames',
+        source: '/holographicboardgames',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_holographic-board-games/',
       },
       {
-        source: '/boardgames/:path*',
+        source: '/holographicboardgames/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_holographic-board-games/:path*',
       },
       // Home Defense Strategy - visionos
@@ -635,12 +1221,21 @@ const nextConfig = {
       },
       // Interactive Theater - visionos
       {
-        source: '/theater',
+        source: '/interactivetheater',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_interactive-theater/',
       },
       {
-        source: '/theater/:path*',
+        source: '/interactivetheater/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_interactive-theater/:path*',
+      },
+      // Mindfulness Meditation Realms - visionos
+      {
+        source: '/mindfulnessrealms',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_mindfulness-meditation-realms/',
+      },
+      {
+        source: '/mindfulnessrealms/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_mindfulness-meditation-realms/:path*',
       },
       // My Spatial Life - visionos
       {
@@ -653,21 +1248,48 @@ const nextConfig = {
       },
       // Mystery Investigation - visionos
       {
-        source: '/mystery',
+        source: '/mysteryinvestigation',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_mystery-investigation/',
       },
       {
-        source: '/mystery/:path*',
+        source: '/mysteryinvestigation/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_mystery-investigation/:path*',
+      },
+      // Narrative Story Worlds - visionos
+      {
+        source: '/narrativeworlds',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_narrative-story-worlds/',
+      },
+      {
+        source: '/narrativeworlds/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_narrative-story-worlds/:path*',
       },
       // Parkour Pathways - visionos
       {
-        source: '/parkour',
+        source: '/parkourpathways',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_parkour-pathways/',
       },
       {
-        source: '/parkour/:path*',
+        source: '/parkourpathways/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_parkour-pathways/:path*',
+      },
+      // Reality Minecraft - visionos
+      {
+        source: '/realityminecraft',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_reality-minecraft/',
+      },
+      {
+        source: '/realityminecraft/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_reality-minecraft/:path*',
+      },
+      // Reality MMO Layer - visionos
+      {
+        source: '/realitymmo',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_reality-mmo-layer/',
+      },
+      {
+        source: '/realitymmo/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_reality-mmo-layer/:path*',
       },
       // Reality Realms RPG - visionos
       {
@@ -678,356 +1300,32 @@ const nextConfig = {
         source: '/realityrealms/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_reality-realms-rpg/:path*',
       },
-      // Spatial Music Studio - visionos
-      {
-        source: '/musicstudio',
-        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_spatial-music-studio/',
-      },
-      {
-        source: '/musicstudio/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_spatial-music-studio/:path*',
-      },
-      // Virtual Pet Ecosystem - visionos
-      {
-        source: '/virtualpet',
-        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_virtual-pet-ecosystem/',
-      },
-      {
-        source: '/virtualpet/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_virtual-pet-ecosystem/:path*',
-      },
-      // Living Building System - visionos
-      {
-        source: '/livingbuilding',
-        destination: 'https://akaash-nigam.github.io/visionOS_Living-Building-System/',
-      },
-      {
-        source: '/livingbuilding/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Living-Building-System/:path*',
-      },
-      // Research Web Crawler - visionos
-      {
-        source: '/researchcrawler',
-        destination: 'https://akaash-nigam.github.io/visionOS_Research-Web-Crawler/',
-      },
-      {
-        source: '/researchcrawler/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Research-Web-Crawler/:path*',
-      },
-      // Spatial Code Reviewer - visionos
-      {
-        source: '/codereview',
-        destination: 'https://akaash-nigam.github.io/visionOS_Spatial-Code-Reviewer/',
-      },
-      {
-        source: '/codereview/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Spatial-Code-Reviewer/:path*',
-      },
-      // Architecture Time Machine - visionos
-      {
-        source: '/archtime',
-        destination: 'https://akaash-nigam.github.io/visionOS_Architecture-Time-Machine/',
-      },
-      {
-        source: '/archtime/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Architecture-Time-Machine/:path*',
-      },
-      // Architectural Visualization Studio - visionos
-      {
-        source: '/archviz',
-        destination: 'https://akaash-nigam.github.io/visionOS_architectural-visualization-studio/',
-      },
-      {
-        source: '/archviz/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_architectural-visualization-studio/:path*',
-      },
-      // Board Meeting Dimension - visionos
-      {
-        source: '/boardmeeting',
-        destination: 'https://akaash-nigam.github.io/visionOS_board-meeting-dimension/',
-      },
-      {
-        source: '/boardmeeting/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_board-meeting-dimension/:path*',
-      },
-      // Business Intelligence Suite - visionos
-      {
-        source: '/bisuite',
-        destination: 'https://akaash-nigam.github.io/visionOS_business-intelligence-suite/',
-      },
-      {
-        source: '/bisuite/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_business-intelligence-suite/:path*',
-      },
-      // Cybersecurity Command Center - visionos
-      {
-        source: '/cybersecurity',
-        destination: 'https://akaash-nigam.github.io/visionOS_cybersecurity-command-center/',
-      },
-      {
-        source: '/cybersecurity/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_cybersecurity-command-center/:path*',
-      },
-      // Executive Briefing - visionos
-      {
-        source: '/execbriefing',
-        destination: 'https://akaash-nigam.github.io/visionOS_executive-briefing/',
-      },
-      {
-        source: '/execbriefing/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_executive-briefing/:path*',
-      },
-      // Field Service AR - visionos
-      {
-        source: '/fieldservice',
-        destination: 'https://akaash-nigam.github.io/visionOS_field-service-ar/',
-      },
-      {
-        source: '/fieldservice/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_field-service-ar/:path*',
-      },
-      // Financial Operations Platform - visionos
-      {
-        source: '/finops',
-        destination: 'https://akaash-nigam.github.io/visionOS_financial-operations-platform/',
-      },
-      {
-        source: '/finops/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_financial-operations-platform/:path*',
-      },
-      // Financial Trading Cockpit - visionos
-      {
-        source: '/trading',
-        destination: 'https://akaash-nigam.github.io/visionOS_Financial-Trading-Cockpit/',
-      },
-      {
-        source: '/trading/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Financial-Trading-Cockpit/:path*',
-      },
-      // Financial Trading Dimension - visionos
-      {
-        source: '/tradingdim',
-        destination: 'https://akaash-nigam.github.io/visionOS_financial-trading-dimension/',
-      },
-      {
-        source: '/tradingdim/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_financial-trading-dimension/:path*',
-      },
-      // Industrial Safety Simulator - visionos
-      {
-        source: '/safetysim',
-        destination: 'https://akaash-nigam.github.io/visionOS_industrial-safety-simulator/',
-      },
-      {
-        source: '/safetysim/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_industrial-safety-simulator/:path*',
-      },
-      // Innovation Laboratory - visionos
-      {
-        source: '/innovationlab',
-        destination: 'https://akaash-nigam.github.io/visionOS_innovation-laboratory/',
-      },
-      {
-        source: '/innovationlab/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_innovation-laboratory/:path*',
-      },
-      // Institutional Memory Vault - visionos
-      {
-        source: '/memoryvault',
-        destination: 'https://akaash-nigam.github.io/visionOS_institutional-memory-vault/',
-      },
-      {
-        source: '/memoryvault/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_institutional-memory-vault/:path*',
-      },
-      // Insurance Risk Assessor - visionos
-      {
-        source: '/riskassessor',
-        destination: 'https://akaash-nigam.github.io/visionOS_insurance-risk-assessor/',
-      },
-      {
-        source: '/riskassessor/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_insurance-risk-assessor/:path*',
-      },
-      // Language Immersion Rooms - visionos
-      {
-        source: '/language',
-        destination: 'https://akaash-nigam.github.io/visionOS_Language-Immersion-Rooms/',
-      },
-      {
-        source: '/language/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Language-Immersion-Rooms/:path*',
-      },
-      // Medical Imaging Suite - visionos
-      {
-        source: '/medimaging',
-        destination: 'https://akaash-nigam.github.io/visionOS_Medical-Imaging-Suite/',
-      },
-      {
-        source: '/medimaging/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Medical-Imaging-Suite/:path*',
-      },
-      // Molecular Design Platform - visionos
-      {
-        source: '/molecular',
-        destination: 'https://akaash-nigam.github.io/visionOS_molecular-design-platform/',
-      },
-      {
-        source: '/molecular/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_molecular-design-platform/:path*',
-      },
-      // Personal Finance Navigator - visionos
-      {
-        source: '/finnav',
-        destination: 'https://akaash-nigam.github.io/visionOS_Personal-Finance-Navigator/',
-      },
-      {
-        source: '/finnav/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Personal-Finance-Navigator/:path*',
-      },
-      // Physical Digital Twins - visionos
-      {
-        source: '/physicaltwins',
-        destination: 'https://akaash-nigam.github.io/visionOS_Physical-Digital-Twins/',
-      },
-      {
-        source: '/physicaltwins/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Physical-Digital-Twins/:path*',
-      },
-      // Reality Annotation Platform - visionos
-      {
-        source: '/annotation',
-        destination: 'https://akaash-nigam.github.io/visionOS_Reality-Annotation-Platform/',
-      },
-      {
-        source: '/annotation/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Reality-Annotation-Platform/:path*',
-      },
-      // Real Estate Spatial - visionos
-      {
-        source: '/realestate',
-        destination: 'https://akaash-nigam.github.io/visionOS_real-estate-spatial/',
-      },
-      {
-        source: '/realestate/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_real-estate-spatial/:path*',
-      },
-      // Regulatory Navigation Space - visionos
-      {
-        source: '/regulatory',
-        destination: 'https://akaash-nigam.github.io/visionOS_regulatory-navigation-space/',
-      },
-      {
-        source: '/regulatory/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_regulatory-navigation-space/:path*',
-      },
-      // Smart Agriculture - visionos
-      {
-        source: '/smartag',
-        destination: 'https://akaash-nigam.github.io/visionOS_smart-agriculture/',
-      },
-      {
-        source: '/smartag/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_smart-agriculture/:path*',
-      },
-      // Smart City Command Platform - visionos
-      {
-        source: '/smartcity',
-        destination: 'https://akaash-nigam.github.io/visionOS_smart-city-command-platform/',
-      },
-      {
-        source: '/smartcity/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_smart-city-command-platform/:path*',
-      },
-      // Spatial HCM - visionos
-      {
-        source: '/spatialhcm',
-        destination: 'https://akaash-nigam.github.io/visionOS_spatial-hcm/',
-      },
-      {
-        source: '/spatialhcm/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_spatial-hcm/:path*',
-      },
-      // Spatial Screenplay Workshop - visionos
-      {
-        source: '/screenplay',
-        destination: 'https://akaash-nigam.github.io/visionOS_Spatial-Screenplay-Workshop/',
-      },
-      {
-        source: '/screenplay/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Spatial-Screenplay-Workshop/:path*',
-      },
-      // Surgical Training Universe - visionos
-      {
-        source: '/surgical',
-        destination: 'https://akaash-nigam.github.io/visionOS_surgical-training-universe/',
-      },
-      {
-        source: '/surgical/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_surgical-training-universe/:path*',
-      },
-      // Sustainability Command - visionos
-      {
-        source: '/sustainability',
-        destination: 'https://akaash-nigam.github.io/visionOS_sustainability-command/',
-      },
-      {
-        source: '/sustainability/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_sustainability-command/:path*',
-      },
-      // Virtual Collaboration Arena - visionos
-      {
-        source: '/collaboration',
-        destination: 'https://akaash-nigam.github.io/visionOS_virtual-collaboration-arena/',
-      },
-      {
-        source: '/collaboration/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_virtual-collaboration-arena/:path*',
-      },
-      // Wardrobe Consultant - visionos
-      {
-        source: '/wardrobe',
-        destination: 'https://akaash-nigam.github.io/visionOS_Wardrobe-Consultant/',
-      },
-      {
-        source: '/wardrobe/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Wardrobe-Consultant/:path*',
-      },
-      // Mindfulness Meditation Realms - visionos
-      {
-        source: '/mindfulness',
-        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_mindfulness-meditation-realms/',
-      },
-      {
-        source: '/mindfulness/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_mindfulness-meditation-realms/:path*',
-      },
-      // Narrative Story Worlds - visionos
-      {
-        source: '/narrative',
-        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_narrative-story-worlds/',
-      },
-      {
-        source: '/narrative/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_narrative-story-worlds/:path*',
-      },
-      // Reality Minecraft - visionos
-      {
-        source: '/realitymine',
-        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_reality-minecraft/',
-      },
-      {
-        source: '/realitymine/:path*',
-        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_reality-minecraft/:path*',
-      },
       // Rhythm Flow - visionos
       {
-        source: '/rhythm',
+        source: '/rhythmflow',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_rhythm-flow/',
       },
       {
-        source: '/rhythm/:path*',
+        source: '/rhythmflow/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_rhythm-flow/:path*',
+      },
+      // Science Lab Sandbox - visionos
+      {
+        source: '/sciencelabsandbox',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_science-lab-sandbox/',
+      },
+      {
+        source: '/sciencelabsandbox/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_science-lab-sandbox/:path*',
+      },
+      // Shadow Boxing Champions - visionos
+      {
+        source: '/shadowboxing',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_shadow-boxing-champions/',
+      },
+      {
+        source: '/shadowboxing/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_shadow-boxing-champions/:path*',
       },
       // Spatial Arena Championship - visionos
       {
@@ -1038,23 +1336,50 @@ const nextConfig = {
         source: '/spatialarena/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_spatial-arena-championship/:path*',
       },
+      // Spatial Music Studio - visionos
+      {
+        source: '/spatialmusicstudio',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_spatial-music-studio/',
+      },
+      {
+        source: '/spatialmusicstudio/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_spatial-music-studio/:path*',
+      },
       // Spatial Pictionary - visionos
       {
-        source: '/pictionary',
+        source: '/spatialpictionary',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_spatial-pictionary/',
       },
       {
-        source: '/pictionary/:path*',
+        source: '/spatialpictionary/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_spatial-pictionary/:path*',
+      },
+      // Tactical Team Shooters - visionos
+      {
+        source: '/tacticalshooters',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_tactical-team-shooters/',
+      },
+      {
+        source: '/tacticalshooters/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_tactical-team-shooters/:path*',
       },
       // Time Machine Adventures - visionos
       {
-        source: '/timemachine',
+        source: '/timemachineadventures',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_time-machine-adventures/',
       },
       {
-        source: '/timemachine/:path*',
+        source: '/timemachineadventures/:path*',
         destination: 'https://akaash-nigam.github.io/visionOS_Gaming_time-machine-adventures/:path*',
+      },
+      // Virtual Pet Ecosystem - visionos
+      {
+        source: '/virtualpet',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_virtual-pet-ecosystem/',
+      },
+      {
+        source: '/virtualpet/:path*',
+        destination: 'https://akaash-nigam.github.io/visionOS_Gaming_virtual-pet-ecosystem/:path*',
       },
     ];
   },

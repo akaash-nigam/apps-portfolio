@@ -91,6 +91,13 @@
     "githubUrl": "https://akaash-nigam.github.io/iOS_TripGeniusAI/"
   },
   {
+    "name": "WealthTrackAI",
+    "platform": "ios",
+    "url": "/wealthtrackai",
+    "description": "Personal wealth management and investment tracking",
+    "githubUrl": "https://akaash-nigam.github.io/ios_wealthtrack-ai/"
+  },
+  {
     "name": "GlowAI",
     "platform": "android",
     "url": "/glowai",
@@ -817,5 +824,89 @@
     "url": "/timemachine",
     "description": "Historical adventure game",
     "githubUrl": "https://akaash-nigam.github.io/visionOS_Gaming_time-machine-adventures/"
+  },
+  {
+    "name": "Fitness Tracker Mobile",
+    "platform": "ios",
+    "url": "/fitnesstracker",
+    "description": "Workout logging and progress tracking",
+    "githubUrl": "#"
+  },
+  {
+    "name": "Habit Tracker",
+    "platform": "ios",
+    "url": "/habittracker",
+    "description": "Daily habit tracking with streaks",
+    "githubUrl": "#"
+  },
+  {
+    "name": "Spatial CRM Platform",
+    "platform": "visionos",
+    "url": "/spatialcrm",
+    "description": "Customer relationship management in 3D",
+    "githubUrl": "#"
+  },
+  {
+    "name": "Manufacturing Floor Manager",
+    "platform": "visionos",
+    "url": "/manufacturing",
+    "description": "Factory floor management and monitoring",
+    "githubUrl": "#"
+  },
+  {
+    "name": "Virtual Home Designer",
+    "platform": "visionos",
+    "url": "/homedesigner",
+    "description": "Interior design and furniture placement",
+    "githubUrl": "#"
+  },
+  {
+    "name": "Immersive Art Gallery",
+    "platform": "visionos",
+    "url": "/artgallery",
+    "description": "Virtual art exhibition space",
+    "githubUrl": "#"
+  },
+  {
+    "name": "Enterprise Training Simulator",
+    "platform": "visionos",
+    "url": "/enterprisetraining",
+    "description": "Corporate training and skill development",
+    "githubUrl": "#"
+  },
+  {
+    "name": "Collaborative Design Studio",
+    "platform": "visionos",
+    "url": "/designstudio",
+    "description": "Multi-user 3D design workspace",
+    "githubUrl": "#"
+  },
+  {
+    "name": "Spatial Data Analytics",
+    "platform": "visionos",
+    "url": "/spatialanalytics",
+    "description": "3D data visualization platform",
+    "githubUrl": "#"
+  },
+  {
+    "name": "Space Adventure VR",
+    "platform": "visionos",
+    "url": "/spaceadventure",
+    "description": "Space exploration game",
+    "githubUrl": "#"
+  },
+  {
+    "name": "Puzzle Kingdom 3D",
+    "platform": "visionos",
+    "url": "/puzzlekingdom",
+    "description": "3D puzzle adventure game",
+    "githubUrl": "#"
+  },
+  {
+    "name": "Virtual Golf Pro",
+    "platform": "visionos",
+    "url": "/virtualgolf",
+    "description": "Realistic golf simulation",
+    "githubUrl": "#"
   }
 ]
