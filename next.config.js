@@ -114,15 +114,6 @@ const nextConfig = {
         source: '/indigenouslanguages/:path*',
         destination: 'https://akaash-nigam.github.io/iOS_IndigenousLanguagesLand/:path*',
       },
-      // Letters - ios
-      {
-        source: '/letters',
-        destination: 'https://akaash-nigam.github.io/ios_letters/',
-      },
-      {
-        source: '/letters/:path*',
-        destination: 'https://akaash-nigam.github.io/ios_letters/:path*',
-      },
       // LocaleConnect - ios
       {
         source: '/localeconnect',
